@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Upload File</title>
+    <meta charset="UTF-8">
+    <link href="static/css/common.css" rel="stylesheet" type="text/css">
+    <style>
+        .jsonPart.title{
+            position:relative;
+            background-color: lightgreen;
+        }
+
+        .jsonPart.title i{
+            position:absolute;
+            width: 10px;
+            height: 10px;
+            top: 5px;
+            left: 5px;
+            border-radius: 50%;
+            background: #3b97f5;
+        }
+
+        .jsonPart.title p{
+            text-indent: 25px;
+            font-size: 14px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <div class="jsonPart title" >
+        <i></i>
+        <p>mock数据添加</p>
+    </div>
+
+    <br>
+    <br>
+
+<form action="/uploadfile.do" method="post" enctype="multipart/form-data">
+    <p>
+        <select name="reqtype" id="reqtype">
+            <option value="none">请输入请求方式</option>
+            <option value="HTTP"> HTTP </option>
+            <option value="HTTPS">HTTPS</option>
+            <option value="XML">XML</option>
+        </select>
+        <input type="text" name="routename" placeholder="请输入路由名称">
+        <input type="text" name="reponseMsg" placeholder="返回信息">
+        <span id="filePart" style="display:none;">
+            <input type="password" name = "keyword" placeholder="请输入证书密码">
+            <input type="file" name="file">
+        </span>
+        <input type="text" name="theKey" placeholder="关键词">
+        <input type="text" name="theKey" placeholder="关键词信息">
+
+         <input style="margin-left:30px;" type="submit" value="提交">
+　  </p>
+</form>
+
+</body>
+<script>
+    var reqtype = document.getElementById("reqtype");
+    reqtype.addEventListener('change', function () {
+        if (reqtype.value == 'HTTPS') {
+            document.getElementById("filePart").style.display = "inline-block";
+        } else {
+            document.getElementById("filePart").style.display = "none";
+        }
+    })
+</script>

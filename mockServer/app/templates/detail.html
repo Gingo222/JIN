@@ -1,0 +1,96 @@
+<!--
+ * Created by jinjie673 on 2018/1/1.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>智能Mock平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../static/css/bootstrapmin.css" rel="stylesheet">
+    <link href="../static/css/upload.css" rel ="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/upload.html">接口配置</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header">
+            <h1>interFaceInfo</h1>
+        </div>
+
+        <form  id="uploadFileForm" name="uploadFileForm"  method="post"
+               class="form" role="form" enctype="multipart/form-data" >
+            <p>
+
+                <input id="routeName" class="btn btn-default" readonly  type="text" name="routename" placeholder="接口名" value="{{routeUrl}}">
+                <br>
+                <br>
+                <input class="btn btn-default" readonly  name="reqtype" id="reqtype" placeholder="接口类型:{{typeCode}}">
+                <br>
+                </p>
+                <h1 style="font-size:20px">逻辑判断
+                </h1>
+                <div id="logic">
+                    <div class="row">
+                        <br>
+                        <textarea class="upInputArea3" name="theKey" placeholder="关键词"></textarea>
+                        <br>
+                        <textarea class="upInputArea3" name="theValue" placeholder="关键词信息"></textarea>
+                        <br>
+                        <textarea class="upInputArea" name="res" placeholder="返回信息："></textarea>
+                        <br><br>
+                    </div>
+                </div>
+        　
+        </form>
+        <span  id ="back" class="btn btn-default"> <a href="/home.html"> 返回 </a> </span>
+    </div>
+<br>
+<br>
+    <script src="../static/javaScript/jquery.min.js"></script>
+    <script src="../static/javaScript/twitter.min.js"></script>
+    <script src="../static/javaScript/jquery.form.js"></script>
+    <script src="../static/javaScript/tst.js"> </script>
+    <script>
+    var routeName = document.getElementById("routeName");
+    $.ajax({
+        url:"/logicInfo",
+        type:"POST",
+        dataType:'json',
+        data:{routeName:routeName.value},
+        success:function(data){
+
+            $("#logic").empty();
+            for( var i in data.res ){
+                 var _html =
+                           '<div class="row">'+
+                           '<textarea class="upInputArea3"  name="theKey" placeholder="关键词" readonly>'+ (data.theKey[i] || "") +'</textarea>'+
+                           '<br>'+
+                           '<textarea class="upInputArea3"  name="theValue" placeholder="关键词信息" readonly>'+ (data.theValue[i] || "") +'</textarea>'+
+                           '<br>'+
+                           '<textarea class="upInputArea"  name="res" placeholder="返回信息：" readonly>'+ data.res[i] +'</textarea>'+
+                           '<br>'+
+                           '</div>';
+                 $("#logic").append(_html);
+            }
+        },
+        error:function(er){
+//            data.responseText
+        }
+    });
+</script>
+</body>
+</html>
+

@@ -1,0 +1,97 @@
+<!--
+ * Created by jinjie673 on 2018/1/1.
+ 上传页面
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>智能Mock平台</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="../static/css/bootstrapmin.css" rel="stylesheet">
+    <link href="../static/css/upload.css" rel ="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div class="navbar navbar-inverse" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="upload.html">接口配置</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="page-header">
+            <h1>Hello! let's begin</h1>
+            <p></p>
+        </div>
+
+        <form  id="uploadFileForm" name="uploadFileForm"  method="post"
+               class="form" role="form" enctype="multipart/form-data" >
+            <p>
+
+                <input class="btn btn-default" type="text" name="routename" placeholder="请输入路由名称">
+                <br>
+                <br>
+                <select class="btn btn-default" name="reqtype" id="reqtype">
+                    <option value="none">请选择请求方式</option>
+                    <option value="HTTP"> HTTP </option>
+                    <option value="HTTPS">HTTPS</option>
+                    <option value="XML">XML</option>
+                </select>
+                <br>
+                <br>
+                <h1 style="font-size:20px">逻辑判断 <span class="delStyle" onclick="delHtml()">删除</span>
+                    <span class="addStyle" onclick="addHtml()">添加</span>
+                </h1>
+                <div id="logic">
+                    <div class="row" >
+                        <br>
+                        <textarea class="upInputArea3" name="theKey" placeholder="关键词"></textarea>
+                        <br>
+                        <textarea class="upInputArea3" name="theValue" placeholder="关键词信息"></textarea>
+                        <br>
+                        <textarea class="upInputArea" name="res" placeholder="返回信息："></textarea>
+                        <br><br>
+                    </div>
+                </div>
+                <br>
+                <span id="filePart" style="display:none; width: 60%">
+                    <textarea  class="upInputArea2" name = "keyword" placeholder="请输入证书密码："></textarea>
+                    <br>
+                    <br>
+                    <input class="btn btn-default" type="file" name="file">
+                    <br>
+                </span>
+                <br>
+                 <span id="formSubmit" class="btn btn-default">提交</span>
+        　  </p>
+        </form>
+    </div>
+<br>
+<br>
+    <script src="../static/javaScript/jquery.min.js"></script>
+    <script src="../static/javaScript/twitter.min.js"></script>
+    <script src="../static/javaScript/jquery.form.js"></script>
+    <script src="../static/javaScript/tst.js"> </script>
+
+</body>
+</html>
+
+<script>
+    var reqtype = document.getElementById("reqtype");
+    reqtype.addEventListener('change', function () {
+        if (reqtype.value == 'HTTPS') {
+            document.getElementById("filePart").style.display = "inline-block";
+        } else {
+            document.getElementById("filePart").style.display = "none";
+        }
+    })
+
+</script>

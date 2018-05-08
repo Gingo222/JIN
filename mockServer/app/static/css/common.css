@@ -1,0 +1,20 @@
+.jsonPart.title{
+    position:relative;
+    background-color: lightgreen;
+}
+
+.jsonPart.title i{
+    position:absolute;
+    width: 10px;
+    height: 10px;
+    top: 5px;
+    left: 5px;
+    border-radius: 50%;
+    background: #3b97f5;
+}
+
+.jsonPart.title p{
+    text-indent: 25px;
+    font-size: 14px;
+}
+
