@@ -1,0 +1,12 @@
+downloadfile: "d_credoo2.0" (list: "4" row: "1")is different from originfile: "credoo2.0" <br>
+downloadfile: "d_phoneVerification" (list: "4" row: "2")is different from originfile: "phoneVerification" <br>
+downloadfile: "d_phoneVerification" (list: "4" row: "3")is different from originfile: "phoneVerification" <br>
+downloadfile: "d_phoneVerification" (list: "4" row: "6")is different from originfile: "phoneVerification" <br>
+downloadfile: "d_phoneVerification" (list: "4" row: "7")is different from originfile: "phoneVerification" <br>
+downloadfile: "d_phoneVerification2" (list: "4" row: "2")is different from originfile: "phoneVerification2" <br>
+Exception："./originFilename/badInformation.xlsx"origin row and list not the same with download !
+downloadfile: "d_addressPass" (list: "4" row: "20")is different from originfile: "addressPass" <br>
+downloadfile: "d_biggercredooCount" (list: "4" row: "2")is different from originfile: "biggercredooCount" <br>
+downloadfile: "d_credoo" (list: "4" row: "15")is different from originfile: "credoo" <br>
+downloadfile: "d_one_moblieValid" (list: "4" row: "6")is different from originfile: "one_moblieValid" <br>
+downloadfile: "d_one_bankcardvalid" (list: "4" row: "2")is different from originfile: "one_bankcardvalid" <br>

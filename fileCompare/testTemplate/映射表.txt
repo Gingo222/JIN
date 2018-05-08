@@ -1,0 +1,83 @@
+个人综合查询：
+1 credoo2.0     		好信度2.0(小贷评分卡)
+2 Risktip2.0			风险度提示2.0版(基础版)
+3 passengerTravelinfo            航客出行信息查询
+4 phoneVerification            手机验证（手机号码状态及在网)
+5 phoneVerification2           手机验证（手机号证件姓名验证）
+6 drivingScore                  驾驶分
+7 badInformation               不良信息
+8 credooSeniorExecutive         好信高管通
+9 educationQuery               学历查询 
+10 credooMoblieInfo            好信手机综合资讯 
+11 credooGoodFaithTrack        好信信用轨迹   
+12 credooBankcardInfo          好信银行卡资讯
+13 AntiFraudRisk_ip_moblie    反欺诈风险认证ip与手机查询
+14 idQuery                     身份多项查询
+15 addressPass                 地址通
+16 credoo2.0_x                好信度2.0（信用卡评分）
+17 biggercredooCount          好信法院通高级版（个人）
+18 credoo                     好信度（专业版） 
+19 credooRegularloan          好信常贷客（基础版）
+20 driverlicenseStatus        好信一鉴通-驾驶证状态查询
+21 netLoanRiskDegree          网贷风险度查询                   查询无权限
+
+
+一鉴通：
+1 one_idvalid             好信身份验证
+2 one_addressvalid        好信一鉴通-地址验证
+3 one_workbussValid	好信一鉴通-工作单位验证
+4 one_cardrivevalid	好信一鉴通-车辆和行驶证状态验证
+5 one_houseValid          好信一鉴通-房产验证
+6 one_moblieValid		好信一鉴通-手机验证
+7 one_carvalid   		好信一鉴通-车辆验证  4EAD86A89A589041E053060B1F0A71E9   0000000000100000
+8 one_bankcardvalid	一鉴通银行卡鉴权
+9 one_educationvalid	好信一鉴通-学历验证
+10 one_relationmanValid	好信一鉴通-关系人验证
+11 one_drivelicenseSer	好信一鉴通-行驶证核查
+
+
+'credoo2.0.xlsx',
+            'Risktip2.0.xlsx',
+            'passengerTravelinfo.xlsx',
+            'phoneVerification.xlsx',
+            'phoneVerification2.xlsx',
+            'drivingScore.xlsx',
+            'badInformation.xlsx',
+            'credooSeniorExecutive.xlsx',
+            'educationQuery.xlsx',
+            'credooMoblieInfo.xlsx',
+            'credooGoodFaithTrack.xlsx',
+            'credooBankcardInfo.xlsx',	
+            'AntiFraudRisk_ip_moblie.xlsx',
+            'idQuery.xlsx',
+            'addressPass.xlsx',
+            'credoo2.0_x.xlsx',
+            'biggercredooCount.xlsx',
+            'credoo.xlsx',
+            'credooRegularloan.xlsx',
+            #'driverlicenseStatus.xlsx',
+            'netLoanRiskDegree.xlsx',
+
+
+
+'4DF4C8BBD3311CFFE053060B1F0A500F',
+            '4CC7C41053BE07B8E0530F0A1F0A55F7',
+            '4EADCA76102F7949E053060B1F0A6CB1',
+            '4EADDA6E18D18521E053060B1F0A467B',
+            '4EADCA7610347949E053060B1F0A6CB1',
+            '4E0D2DB9D3CA3216E053060B1F0A7A64',
+            '4EAD86A89A4C9041E053060B1F0A71E9',
+            '4EAD86A89A529041E053060B1F0A71E9',
+            '4CC7DF23ADF95246E0530F0A1F0A3BDE',
+            '4EAD460B57815D84E053060B1F0A0BEF',
+            '4E1E44AE6CCD91FAE053060B1F0AB4BB',
+            '4E1DDA00772662FDE053060B1F0A723E',
+            '4E1D1AD8880F40B5E053060B1F0A47C4',
+            '4E0F91BF575C3C02E053060B1F0A9B61',
+            '4E0A1D92BDBD4F94E053060B1F0AD26F',
+            '4DF4C8BBD3311CFFE053060B1F0A500F',
+            '4DE4E3375B376C99E0530F0A1F0AB960',
+            '4DE35D6B0BFF3540E0530F0A1F0AD573',
+            '4DA8CE54A24B187DE0530F0A1F0ABA95',
+            #'4C7B77DA9F891FD8E0530F0A1F0ADD30',
+            '4C7B5B514A704BDAE0530F0A1F0AEBFD',
