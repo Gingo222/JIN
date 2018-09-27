@@ -1,0 +1,41 @@
+table{
+    width:80%;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+table tbody td{
+    border: 1px solid #ccc;
+    padding-left:5px;
+}
+
+.fff{
+    text-align:center;
+    background-color: #4F94CD;
+
+}
+
+.tablesheetwiden{
+    width:15%
+}
+.tablesheetwiden2{
+    width:20%
+}
+.tablesheetwiden3{
+    width:30%
+}
+.tablesheetwiden4{
+    width:40%
+}
+.tablesheetwiden5{
+    width:50%
+}
+
+.tablesheetwiden6{
+    width:7%
+}
+.tablesheetwiden7{
+    width:15%
+}
