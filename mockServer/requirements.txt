@@ -1,6 +1,0 @@
-requests==2.18.4
-Flask_Bootstrap==3.3.7.1
-Flask==0.12.2
-spyne==2.12.14
-simplejson==3.14.0
-suds_jurko==0.6
