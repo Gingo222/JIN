@@ -31,7 +31,6 @@ logger = logging.getLogger('HttpRunnerManager')
 # Create your views here.
 
 
-
 def login_check(func):
     def wrapper(request, *args, **kwargs):
         if not request.session.get('login_status'):

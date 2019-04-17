@@ -1,0 +1,24 @@
+stages:
+- build
+
+# 打印当前工作目录，每一个job都会执行
+before_script:
+- pwd
+- docker login -u $DOCKER_USER -p $DOCKER_PASS storage-shshukun:5050
+
+# 构建master分支的镜像
+build_dev_job:
+  tags:
+    - '138-docker-docker'
+  stage: build
+  script:
+    - echo 'start build docker HttpRunnerManager image'
+    - cd ../
+    - cp HttpRunnerManager/build/Dockerfile ./
+    - docker build -t HttpRunnerManager:${CI_COMMIT_SHORT_SHA:0:7} .
+    - docker tag HttpRunnerManager:${CI_COMMIT_SHORT_SHA:0:7} storage-shshukun:5050/HttpRunnerManager:${CI_COMMIT_SHORT_SHA:0:7}
+    - docker tag HttpRunnerManager:${CI_COMMIT_SHORT_SHA:0:7} storage-shshukun:5050/HttpRunnerManager:latest
+    - docker push storage-shshukun:5050/HttpRunnerManager:${CI_COMMIT_SHORT_SHA:0:7}
+    - docker push storage-shshukun:5050/HttpRunnerManager:latest
+  only:
+  - master

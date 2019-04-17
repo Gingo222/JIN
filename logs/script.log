@@ -437,3 +437,23 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: '����_quant_login_out(����ǳ�)'
 2018-07-02 14:59:50,449 [HttpRunnerManager:78] [views:log_out] [INFO]- yinquanwang�˳�
 2018-07-02 14:59:52,333 [HttpRunnerManager:45] [views:login] [INFO]- yinquanwang ��¼�ɹ�
+2019-04-16 16:53:30,833 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-04-16 17:12:03,107 [HttpRunnerManager:35] [operation:add_register_data] [INFO]- 新增用户：ApiManager.UserInfo.objects
+2019-04-16 17:12:07,394 [HttpRunnerManager:60] [views:login] [INFO]- jinjie@shukun.net 登录失败, 请检查用户名或者密码
+2019-04-16 17:12:14,889 [HttpRunnerManager:55] [views:login] [INFO]- jinjie 登录成功
+2019-04-16 17:15:27,733 [HttpRunnerManager:62] [operation:add_project_data] [INFO]- 项目添加成功：{'project_name': 'CTA', 'responsible_name': 'jinjie', 'test_user': 'jinjie', 'dev_user': 'jinjie', 'publish_app': 'web-srv', 'simple_desc': '', 'other_desc': ''}
+2019-04-16 17:17:30,999 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-04-16 17:17:56,867 [HttpRunnerManager:55] [views:login] [INFO]- jinjie 登录成功
+2019-04-16 17:32:41,836 [django.request:93] [base:get_response] [WARNING]- Not Found: /api/index/anonymous function
+2019-04-16 18:15:19,550 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'account', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:15:39,343 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'case', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:16:50,745 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'feedback', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:18:15,223 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'issue', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:18:37,147 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'meta', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:19:00,007 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'output', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:19:25,500 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'report', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:19:49,316 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'setting', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:21:24,163 [HttpRunnerManager:110] [operation:add_module_data] [INFO]- 模块添加成功：{'module_name': 'task', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': '', 'belong_project': <ProjectInfo: ProjectInfo object (1)>}
+2019-04-16 18:22:03,729 [HttpRunnerManager:125] [operation:add_module_data] [INFO]- 模块更新成功：{'module_name': 'task', 'test_user': 'jinjie', 'simple_desc': '', 'other_desc': ''}
+2019-04-16 18:23:57,270 [HttpRunnerManager:154] [operation:add_case_data] [INFO]- account_login用例添加成功: {'test': {'request': {'url': '', 'method': 'POST'}, 'name': 'account_login'}}
+2019-04-17 09:55:35,496 [HttpRunnerManager:54] [views:login] [INFO]- jinjie 登录成功
