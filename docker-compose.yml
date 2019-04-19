@@ -1,0 +1,40 @@
+version: "2.3"
+
+services:
+  rabbitMq:
+    image: rabbitmq:3-management
+    # hostname: rabbit
+    environment:
+      - TZ=Asia/Shanghai
+      - RABBITMQ_DEFAULT_USER=myuser
+      - RABBITMQ_DEFAULT_PASS=mypass
+    ports:
+      - "4369:4369"
+      - "5671:5671"
+      - "5672:5672"
+      - "15671:15671"
+      - "15672:15672"
+    restart: always
+    networks:
+      - ApiRunner
+
+  httprunner_mysql:
+    image: storage-shshukun:5050/mysql
+    environment:
+      - MYSQL_DATABASE=cta
+      - MYSQL_USER=shukun
+      - MYSQL_PASSWORD=skdev0ps!
+      - MYSQL_ROOT_PASSWORD=r2dec3po
+      - TZ=Asia/Shanghai
+    ports:
+      - "7707:3306"
+    networks:
+      - ApiRunner
+    volumes:
+      - /Users/jinjie/rundata/apirunner/mysql:/var/lib/mysql
+    command: --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci --max-allowed-packet=33554432
+    restart: always
+
+networks:
+  ApiRunner:
+    driver: bridge
