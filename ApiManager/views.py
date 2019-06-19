@@ -226,7 +226,7 @@ def run_test(request):
         type = kwargs.pop('type')
         run_test_by_type(id, base_url, testcase_dir_path, type)
         report_name = kwargs.get('report_name', None)
-        main_hrun(testcase_dir_path, report_name)
+        main_hrun.delay(testcase_dir_path, report_name)
         return HttpResponse('用例执行中，请稍后查看报告即可,默认时间戳命名报告')
     else:
         id = request.POST.get('id')
