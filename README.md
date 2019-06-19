@@ -63,6 +63,13 @@ Key Features
         CELERYD_MAX_TASKS_PER_CHILD = 100  # 每个worker执行了多少任务就会死掉，我建议数量可以大一些，默认100
     ```
 
+sudo apt-get install libpq-dev python-dev libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libffi-dev
+
+sudo apt-get install mysql-server
+
+sudo apt-get install libmysqlclient-dev
+
+
 5. 命令行窗口执行pip install -r requirements.txt 安装工程所依赖的库文件
 
 6. 命令行窗口切换到HttpRunnerManager目录 生成数据库迁移脚本,并生成表结构
@@ -82,6 +89,7 @@ Key Features
     ```
 
 9. 启动worker, 如果选择同步执行并确保不会使用到定时任务，那么此步骤可忽略
+#  可先启动监听在启动worker试试
     ```bash
         python manage.py celery -A HttpRunnerManager worker --loglevel=info  #启动worker
         python manage.py celery beat --loglevel=info #启动定时任务监听器
@@ -147,7 +155,11 @@ Key Features
 
 
 
+###  其他
+MockServer：https://github.com/yinquanwang/MockServer
 
+因时间限制，平台可能还有很多潜在的bug，使用中如遇到问题，欢迎issue,
+如果任何疑问好好的建议欢迎github提issue, 或者可以直接加群(628448476)，反馈会比较快
 
 
 

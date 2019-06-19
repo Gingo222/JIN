@@ -14,6 +14,7 @@ from ApiManager.utils.operation import add_test_reports
 from ApiManager.utils.runner import run_by_project, run_by_module, run_by_suite
 from ApiManager.utils.testcase import get_time_stamp
 from httprunner import HttpRunner, logger
+from ApiManager.utils.get_conf import get_value_by_key
 
 
 @shared_task
@@ -34,7 +35,12 @@ def main_hrun(testset_path, report_name):
 
     runner.summary = timestamp_to_datetime(runner.summary)
     report_path = add_test_reports(runner, report_name=report_name)
-    os.remove(report_path)
+
+    receiver = get_value_by_key('user_emails')
+    # 添加发送邮件
+    if receiver:
+        send_email_reports(receiver, report_path)
+    # os.remove(report_path)
 
 
 @shared_task

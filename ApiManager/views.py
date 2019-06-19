@@ -26,6 +26,7 @@ from ApiManager.utils.task_opt import delete_task, change_task_status
 from ApiManager.utils.testcase import get_time_stamp
 from httprunner import HttpRunner
 
+
 logger = logging.getLogger('HttpRunnerManager')
 
 # Create your views here.
@@ -217,6 +218,7 @@ def run_test(request):
     testcase_dir_path = os.path.join(os.getcwd(), "suite")
     testcase_dir_path = os.path.join(testcase_dir_path, get_time_stamp())
 
+    # 异步请求
     if request.is_ajax():
         kwargs = json.loads(request.body.decode('utf-8'))
         id = kwargs.pop('id')
@@ -224,7 +226,7 @@ def run_test(request):
         type = kwargs.pop('type')
         run_test_by_type(id, base_url, testcase_dir_path, type)
         report_name = kwargs.get('report_name', None)
-        main_hrun.delay(testcase_dir_path, report_name)
+        main_hrun(testcase_dir_path, report_name)
         return HttpResponse('用例执行中，请稍后查看报告即可,默认时间戳命名报告')
     else:
         id = request.POST.get('id')

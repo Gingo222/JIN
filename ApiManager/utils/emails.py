@@ -30,7 +30,10 @@ def send_email_reports(receiver, html_report_path):
     msg = MIMEMultipart('related')
     msg['Subject'] = subject
     msg['from'] = EMAIL_SEND_USERNAME
-    msg['to'] = receiver
+    if isinstance(receiver, list):
+        msg['to'] = ','.join(receiver)
+    else:
+        msg['to'] = receiver
     msg.attach(att)
     msg.attach(body)
 
@@ -38,9 +41,6 @@ def send_email_reports(receiver, html_report_path):
     smtp.connect(smtp_server)
     smtp.starttls()
     smtp.login(EMAIL_SEND_USERNAME, EMAIL_SEND_PASSWORD)
-    smtp.sendmail(EMAIL_SEND_USERNAME, receiver.split(','), msg.as_string())
+    smtp.sendmail(EMAIL_SEND_USERNAME, receiver, msg.as_string())
     smtp.quit()
 
-
-if __name__ == '__main__':
-    send_email_reports('##@qq.com, example@163.com', 'D:\\HttpRunnerManager\\reports\\2018-06-05 15-58-00.html')
