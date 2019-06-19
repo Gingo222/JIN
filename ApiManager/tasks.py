@@ -40,7 +40,7 @@ def main_hrun(testset_path, report_name):
     # 添加发送邮件
     if receiver:
         send_email_reports(receiver, report_path)
-    # os.remove(report_path)
+    os.remove(report_path)
 
 
 @shared_task
