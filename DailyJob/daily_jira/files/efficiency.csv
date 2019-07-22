@@ -1,0 +1,93 @@
+ID,type,author,used_time,timeoriginalestimate
+CTA-1795,bug,yuanyuan,0:32:45,
+CTA-1794,bug,huanghai,0:26:13,
+CTA-1793,bug,huanghai,0:19:20,
+CTA-1792,bug,yuanyuan,0:00:12,
+CTA-1791,bug,yuanyuan,0:00:03,
+CTA-1790,bug,jiangpeng,2:14:38,
+CTA-1789,bug,wuxl,1:48:27,
+CTA-1788,bug,hongf,0:00:07,
+CTA-1787,bug,yuanyuan,2:11:35,
+CTA-1786,bug,yuanyuan,1:21:23,
+CTA-1781,bug,yuanyuan,2:28:45,
+CTA-1780,bug,hongf,0:00:11,
+CTA-1778,bug,huanghai,0:48:56,
+CTA-1777,bug,wuxl,1:52:03,
+CTA-1776,bug,hongf,0:11:16,
+CTA-1775,bug,wuxl,6:55:46,
+CTA-1774,bug,huanghai,5:59:22,
+CTA-1773,bug,yuanyuan,"1 day, 15:07:38",
+CTA-1772,bug,hongf,0:08:58,
+CTA-1771,bug,hongf,0:46:18,
+CTA-1770,bug,huanghai,1:00:10,
+CTA-1768,bug,huanghai,16:18:25,
+CTA-1767,bug,wuxl,0:00:08,
+CTA-1766,bug,wuxl,0:18:00,
+CTA-1764,bug,yuanyuan,0:15:58,
+CTA-1762,bug,yuanyuan,0:05:58,
+CTA-1761,bug,yuanyuan,22:40:51,
+CTA-1760,bug,wuxl,13:22:50,
+CTA-1759,bug,wuxl,2:20:54,
+CTA-1758,bug,wuxl,0:00:06,
+CTA-1757,bug,wuxl,11:31:14,
+CTA-1756,bug,hongf,1:04:01,
+CTA-1755,bug,huanghai,2:01:13,
+CTA-1753,bug,hongf,2:03:39,
+CTA-1752,bug,huanghai,2:29:52,
+CTA-1751,bug,huanghai,6:26:03,
+CTA-1750,bug,wuxl,5:21:38,
+CTA-1748,bug,huanghai,21:42:00,
+CTA-1747,bug,hongf,0:01:02,
+CTA-1746,bug,wuxl,4:29:47,
+CTA-1745,bug,hongf,,
+CTA-1744,bug,hongf,,
+CTA-1743,bug,hongf,,
+CTA-1742,bug,wuxl,0:05:35,
+CTA-1741,bug,hongf,1:00:15,
+CTA-1740,bug,wuxl,19:23:27,
+CTA-1739,bug,wuxl,1:22:37,
+CTA-1738,bug,wuxl,17:46:12,
+CTA-1737,bug,yuanyuan,,
+CTA-1736,bug,huanghai,19:18:37,
+CTA-1730,bug,hongf,0:03:30,
+CTA-1722,bug,hongf,0:02:42,
+CTA-1720,bug,hongf,0:00:12,
+CTA-1716,bug,wuxl,,
+CTA-1714,bug,yuanyuan,,
+CTA-1713,bug,hongf,,
+CTA-1712,bug,chenl@shukun.net,0:00:16,
+CTA-1711,bug,yuanyuan,0:00:07,
+CTA-1705,bug,yuanyuan,1:27:06,
+CTA-1703,bug,chenl@shukun.net,17:08:57,
+CTA-1696,bug,hongf,0:11:58,
+CTA-1695,bug,hongf,0:12:30,
+CTA-1728,subtask,jiangpeng,"2 days, 18:48:53",
+CTA-1727,subtask,chenl@shukun.net,0:00:04,14400
+CTA-1726,subtask,yuanyuan,0:00:11,
+CTA-1723,subtask,chenl@shukun.net,"1 day, 4:45:00",
+CTA-1725,task,jiangpeng,0:54:06,
+CTA-1718,task,jiangpeng,"4 days, 22:21:45",
+CTA-1715,task,jiangpeng,"8 days, 4:08:38",
+CTA-1733,story,yuanyuan,17:13:47,14400
+CTA-1709,story,wuxl,"6 days, 12:04:20",72000
+CTA-1706,story,yuanyuan,"190 days, 13:47:47",7200
+CTA-1704,story,chenl@shukun.net,"2 days, 19:48:26",14400
+CTA-1701,story,jiangpeng,5:50:40,
+CTA-1700,story,jiangpeng,4:46:25,17280
+CTA-1699,story,huanghai,12:06:25,14400
+CTA-1698,story,yuanyuan,16:25:10,12
+CTA-1697,story,yuanyuan,16:25:00,15
+CTA-1694,story,yuanyuan,17:29:27,
+CTA-1693,story,yuanyuan,"4 days, 22:47:15",43200
+CTA-1692,story,chenl@shukun.net,0:00:21,43200
+CTA-1691,story,hongf,12:29:40,43200
+CTA-1690,story,jinjie,"4 days, 23:23:02",57600
+CTA-1688,story,hongf,"5 days, 6:16:20",86400
+CTA-1687,story,huanghai,"4 days, 19:31:49",115200
+CTA-1684,story,huanghai,2:36:22,28800
+CTA-1683,story,chenl@shukun.net,1:15:02,21600
+CTA-1682,story,yuanyuan,"190 days, 13:47:46",
+CTA-1681,story,yuanyuan,"6 days, 12:41:49",43200
+CTA-1680,story,huanghai,6:58:15,28800
+CTA-1679,story,huanghai,18:03:22,28800
+CTA-1678,story,chenl@shukun.net,0:36:55,

@@ -1,0 +1,6 @@
+-i https://mirrors.aliyun.com/pypi/simple
+requests==2.21.0
+jira==2.0.0
+inject==3.5.2
+pyyaml==3.12
+python-dateutil==2.8.0

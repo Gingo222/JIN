@@ -1,0 +1,281 @@
+ID,type,author,created_time,status_from,statues_to
+CTA-1795,bug,yuanyuan,2019-07-19 03:49:34,Open,In Progress
+CTA-1795,bug,yuanyuan,2019-07-19 04:22:19,,Fixed
+CTA-1795,bug,jiangpeng,2019-07-19 09:10:55,Resolved,Closed
+CTA-1794,bug,huanghai,2019-07-19 01:42:43,Open,In Progress
+CTA-1794,bug,huanghai,2019-07-19 02:08:56,,Fixed
+CTA-1794,bug,jiangpeng,2019-07-19 07:38:23,Resolved,Closed
+CTA-1793,bug,huanghai,2019-07-19 01:42:35,Open,In Progress
+CTA-1793,bug,huanghai,2019-07-19 02:01:55,,Fixed
+CTA-1793,bug,jiangpeng,2019-07-19 03:49:21,Resolved,Closed
+CTA-1792,bug,yuanyuan,2019-07-19 01:43:07,Open,In Progress
+CTA-1792,bug,yuanyuan,2019-07-19 01:43:19,,Fixed
+CTA-1792,bug,jiangpeng,2019-07-19 01:59:34,Resolved,Closed
+CTA-1791,bug,yuanyuan,2019-07-18 10:38:45,Open,In Progress
+CTA-1791,bug,yuanyuan,2019-07-18 10:38:48,,Fixed
+CTA-1791,bug,jinjie,2019-07-18 11:43:06,Resolved,Closed
+CTA-1790,bug,jiangpeng,2019-07-18 10:41:29,Open,In Progress
+CTA-1790,bug,jiangpeng,2019-07-18 10:41:34,,Fixed
+CTA-1790,bug,jiangpeng,2019-07-18 10:41:39,Resolved,Closed
+CTA-1790,bug,wuxl,2019-07-18 12:56:07,,Fixed
+CTA-1790,bug,jiangpeng,2019-07-19 06:03:31,Resolved,Closed
+CTA-1789,bug,wuxl,2019-07-18 11:00:53,Open,In Progress
+CTA-1789,bug,wuxl,2019-07-18 12:49:20,,Fixed
+CTA-1789,bug,jiangpeng,2019-07-19 01:51:41,Resolved,Closed
+CTA-1788,bug,hongf,2019-07-18 10:17:19,Open,In Progress
+CTA-1788,bug,hongf,2019-07-18 10:17:26,,Fixed
+CTA-1788,bug,jiangpeng,2019-07-18 10:35:25,Resolved,Closed
+CTA-1787,bug,yuanyuan,2019-07-18 08:14:05,Open,In Progress
+CTA-1787,bug,yuanyuan,2019-07-18 10:25:40,,Fixed
+CTA-1787,bug,jiangpeng,2019-07-18 10:37:41,Resolved,Closed
+CTA-1786,bug,yuanyuan,2019-07-18 07:46:45,Open,In Progress
+CTA-1786,bug,wuxl,2019-07-18 09:08:08,,Fixed
+CTA-1786,bug,jiangpeng,2019-07-18 10:11:41,Resolved,Closed
+CTA-1781,bug,yuanyuan,2019-07-18 04:17:36,Open,In Progress
+CTA-1781,bug,yuanyuan,2019-07-18 06:46:21,,Fixed
+CTA-1781,bug,jiangpeng,2019-07-18 08:30:18,Resolved,Closed
+CTA-1780,bug,hongf,2019-07-18 10:17:18,Open,In Progress
+CTA-1780,bug,hongf,2019-07-18 10:17:29,,Fixed
+CTA-1780,bug,jiangpeng,2019-07-18 10:35:17,Resolved,Closed
+CTA-1778,bug,huanghai,2019-07-18 02:46:37,Open,In Progress
+CTA-1778,bug,huanghai,2019-07-18 03:35:33,,Fixed
+CTA-1778,bug,jiangpeng,2019-07-18 06:35:51,Resolved,Closed
+CTA-1777,bug,wuxl,2019-07-18 09:08:35,Open,In Progress
+CTA-1777,bug,wuxl,2019-07-18 11:00:38,,Fixed
+CTA-1777,bug,jiangpeng,2019-07-18 12:00:58,Resolved,Closed
+CTA-1776,bug,hongf,2019-07-18 02:14:55,Open,In Progress
+CTA-1776,bug,hongf,2019-07-18 02:26:11,,Fixed
+CTA-1776,bug,jiangpeng,2019-07-18 02:56:59,Resolved,Closed
+CTA-1775,bug,wuxl,2019-07-17 14:11:22,Open,In Progress
+CTA-1775,bug,wuxl,2019-07-17 21:07:08,,Fixed
+CTA-1775,bug,jiangpeng,2019-07-18 02:48:40,Resolved,Closed
+CTA-1774,bug,huanghai,2019-07-18 01:38:33,Open,In Progress
+CTA-1774,bug,huanghai,2019-07-18 07:37:55,,Fixed
+CTA-1774,bug,jiangpeng,2019-07-18 07:38:04,Resolved,Closed
+CTA-1773,bug,yuanyuan,2019-07-17 13:34:34,Open,In Progress
+CTA-1773,bug,yuanyuan,2019-07-17 14:07:46,,Fixed
+CTA-1773,bug,wuxl,2019-07-19 04:42:12,,Fixed
+CTA-1773,bug,jiangpeng,2019-07-19 07:38:18,Resolved,Closed
+CTA-1772,bug,hongf,2019-07-17 12:24:19,Open,In Progress
+CTA-1772,bug,hongf,2019-07-17 12:33:17,,Fixed
+CTA-1772,bug,jiangpeng,2019-07-17 13:10:39,Resolved,Closed
+CTA-1771,bug,hongf,2019-07-17 11:46:56,Open,In Progress
+CTA-1771,bug,hongf,2019-07-17 12:33:14,,Fixed
+CTA-1771,bug,jiangpeng,2019-07-17 13:05:40,Resolved,Closed
+CTA-1770,bug,huanghai,2019-07-17 11:52:07,Open,In Progress
+CTA-1770,bug,huanghai,2019-07-17 12:52:17,,Fixed
+CTA-1770,bug,jiangpeng,2019-07-18 02:57:06,Resolved,Closed
+CTA-1768,bug,huanghai,2019-07-17 11:15:41,Open,In Progress
+CTA-1768,bug,huanghai,2019-07-17 12:52:13,,Fixed
+CTA-1768,bug,huanghai,2019-07-18 03:34:06,,Fixed
+CTA-1768,bug,jiangpeng,2019-07-18 04:23:22,Resolved,Closed
+CTA-1767,bug,wuxl,2019-07-17 12:33:01,Open,In Progress
+CTA-1767,bug,wuxl,2019-07-17 12:33:09,,Fixed
+CTA-1767,bug,jiangpeng,2019-07-17 12:55:47,Resolved,Closed
+CTA-1766,bug,wuxl,2019-07-17 19:01:15,Open,In Progress
+CTA-1766,bug,wuxl,2019-07-17 19:19:15,,Fixed
+CTA-1766,bug,jiangpeng,2019-07-18 02:37:34,Resolved,Closed
+CTA-1764,bug,yuanyuan,2019-07-17 09:39:32,Open,In Progress
+CTA-1764,bug,yuanyuan,2019-07-17 09:55:30,,Fixed
+CTA-1764,bug,jiangpeng,2019-07-17 10:27:21,Resolved,Closed
+CTA-1762,bug,yuanyuan,2019-07-17 11:26:49,Open,In Progress
+CTA-1762,bug,yuanyuan,2019-07-17 11:32:47,,Fixed
+CTA-1762,bug,jiangpeng,2019-07-17 12:48:35,Resolved,Closed
+CTA-1761,bug,yuanyuan,2019-07-17 10:26:09,Open,In Progress
+CTA-1761,bug,wuxl,2019-07-18 09:07:00,,Fixed
+CTA-1761,bug,jiangpeng,2019-07-18 10:37:51,Resolved,Closed
+CTA-1760,bug,wuxl,2019-07-17 07:46:34,Open,In Progress
+CTA-1760,bug,wuxl,2019-07-17 21:09:24,,Fixed
+CTA-1760,bug,jinjie,2019-07-18 06:52:06,Resolved,Closed
+CTA-1759,bug,wuxl,2019-07-17 09:36:04,Open,In Progress
+CTA-1759,bug,wuxl,2019-07-17 11:56:58,,Fixed
+CTA-1759,bug,jiangpeng,2019-07-17 12:47:08,Resolved,Closed
+CTA-1758,bug,wuxl,2019-07-17 09:07:01,Open,In Progress
+CTA-1758,bug,wuxl,2019-07-17 09:07:07,,Fixed
+CTA-1758,bug,jiangpeng,2019-07-17 09:53:32,Resolved,Closed
+CTA-1757,bug,wuxl,2019-07-17 07:28:33,Open,In Progress
+CTA-1757,bug,wuxl,2019-07-17 07:46:22,,Fixed
+CTA-1757,bug,wuxl,2019-07-17 18:59:47,,Fixed
+CTA-1757,bug,jiangpeng,2019-07-18 02:33:20,Resolved,Closed
+CTA-1756,bug,hongf,2019-07-17 06:58:56,Open,In Progress
+CTA-1756,bug,hongf,2019-07-17 08:02:57,,Fixed
+CTA-1756,bug,jiangpeng,2019-07-17 08:13:19,Resolved,Closed
+CTA-1755,bug,huanghai,2019-07-17 07:06:49,Open,In Progress
+CTA-1755,bug,huanghai,2019-07-17 09:08:02,,Fixed
+CTA-1755,bug,jinjie,2019-07-18 08:03:14,Resolved,Closed
+CTA-1753,bug,hongf,2019-07-17 04:08:52,Open,In Progress
+CTA-1753,bug,hongf,2019-07-17 06:12:31,,Fixed
+CTA-1753,bug,jiangpeng,2019-07-17 10:22:40,Resolved,Closed
+CTA-1752,bug,huanghai,2019-07-18 01:38:31,Open,In Progress
+CTA-1752,bug,huanghai,2019-07-18 04:08:23,,Fixed
+CTA-1752,bug,jiangpeng,2019-07-18 06:35:35,Resolved,Closed
+CTA-1751,bug,huanghai,2019-07-17 02:25:57,Open,In Progress
+CTA-1751,bug,huanghai,2019-07-17 08:52:00,,Fixed
+CTA-1751,bug,jiangpeng,2019-07-17 10:22:19,Resolved,Closed
+CTA-1750,bug,wuxl,2019-07-17 04:13:58,Open,In Progress
+CTA-1750,bug,wuxl,2019-07-17 07:20:09,,Fixed
+CTA-1750,bug,wuxl,2019-07-17 09:35:36,,Fixed
+CTA-1750,bug,jiangpeng,2019-07-17 09:50:59,Resolved,Closed
+CTA-1748,bug,huanghai,2019-07-16 10:24:50,Open,In Progress
+CTA-1748,bug,huanghai,2019-07-17 02:32:06,,Fixed
+CTA-1748,bug,huanghai,2019-07-17 08:06:50,,Fixed
+CTA-1748,bug,jiangpeng,2019-07-17 10:13:41,Resolved,Closed
+CTA-1747,bug,hongf,2019-07-16 09:14:27,Open,In Progress
+CTA-1747,bug,hongf,2019-07-16 09:15:29,,Fixed
+CTA-1747,bug,hongf,2019-07-16 09:47:37,In Progress,Resolved
+CTA-1747,bug,jiangpeng,2019-07-16 10:16:40,Resolved,Closed
+CTA-1746,bug,wuxl,2019-07-17 07:27:15,Open,In Progress
+CTA-1746,bug,wuxl,2019-07-17 11:57:02,,Fixed
+CTA-1745,bug,hongf,2019-07-16 09:17:00,Open,In Progress
+CTA-1745,bug,hongf,2019-07-16 09:47:33,In Progress,Resolved
+CTA-1745,bug,jiangpeng,2019-07-17 06:41:16,Resolved,Closed
+CTA-1744,bug,hongf,2019-07-17 06:21:45,Open,In Progress
+CTA-1744,bug,hongf,2019-07-17 06:34:16,In Progress,Resolved
+CTA-1744,bug,jiangpeng,2019-07-17 07:02:45,Resolved,Closed
+CTA-1743,bug,hongf,2019-07-16 08:41:36,Open,In Progress
+CTA-1743,bug,hongf,2019-07-16 09:47:28,In Progress,Resolved
+CTA-1743,bug,jiangpeng,2019-07-16 11:10:31,Resolved,Closed
+CTA-1742,bug,wuxl,2019-07-17 07:21:35,Open,In Progress
+CTA-1742,bug,wuxl,2019-07-17 07:27:10,,Fixed
+CTA-1742,bug,jiangpeng,2019-07-17 08:20:16,Resolved,Closed
+CTA-1741,bug,hongf,2019-07-17 02:08:15,Open,In Progress
+CTA-1741,bug,hongf,2019-07-17 03:08:30,,Fixed
+CTA-1741,bug,jiangpeng,2019-07-17 06:43:59,Resolved,Closed
+CTA-1740,bug,wuxl,2019-07-16 07:27:01,Open,In Progress
+CTA-1740,bug,wuxl,2019-07-17 02:50:28,,Fixed
+CTA-1740,bug,jiangpeng,2019-07-17 06:57:18,Resolved,Closed
+CTA-1739,bug,wuxl,2019-07-17 02:51:03,Open,In Progress
+CTA-1739,bug,wuxl,2019-07-17 04:13:40,,Fixed
+CTA-1739,bug,jiangpeng,2019-07-17 06:49:36,Resolved,Closed
+CTA-1738,bug,wuxl,2019-07-16 09:03:01,Open,In Progress
+CTA-1738,bug,wuxl,2019-07-17 02:49:13,,Fixed
+CTA-1738,bug,jiangpeng,2019-07-17 06:44:49,Resolved,Closed
+CTA-1737,bug,yuanyuan,2019-07-16 07:09:01,Open,In Progress
+CTA-1737,bug,yuanyuan,2019-07-16 08:32:18,In Progress,Resolved
+CTA-1737,bug,jiangpeng,2019-07-16 10:20:16,Resolved,Closed
+CTA-1736,bug,huanghai,2019-07-16 07:13:24,Open,In Progress
+CTA-1736,bug,huanghai,2019-07-16 07:13:32,,Fixed
+CTA-1736,bug,huanghai,2019-07-17 02:32:01,,Fixed
+CTA-1736,bug,jiangpeng,2019-07-17 03:30:05,Resolved,Closed
+CTA-1730,bug,hongf,2019-07-12 11:07:08,Open,In Progress
+CTA-1730,bug,hongf,2019-07-12 11:10:38,,Fixed
+CTA-1730,bug,jiangpeng,2019-07-12 11:20:52,Resolved,Closed
+CTA-1722,bug,hongf,2019-07-12 09:39:25,Open,In Progress
+CTA-1722,bug,hongf,2019-07-12 09:42:07,,Fixed
+CTA-1722,bug,jiangpeng,2019-07-12 11:21:51,Resolved,Closed
+CTA-1720,bug,hongf,2019-07-12 03:10:46,Open,In Progress
+CTA-1720,bug,hongf,2019-07-12 03:10:58,,Fixed
+CTA-1720,bug,hongf,2019-07-12 03:11:25,Resolved,Closed
+CTA-1716,bug,wuxl,2019-07-16 07:26:29,Open,In Progress
+CTA-1716,bug,wuxl,2019-07-17 09:02:20,In Progress,Resolved
+CTA-1716,bug,jiangpeng,2019-07-17 09:49:07,Resolved,Closed
+CTA-1714,bug,yuanyuan,2019-07-11 04:13:03,Open,In Progress
+CTA-1714,bug,jinjie,2019-07-11 08:41:59,In Progress,Resolved
+CTA-1714,bug,jiangpeng,2019-07-11 09:19:16,Resolved,Closed
+CTA-1713,bug,hongf,2019-07-11 06:12:09,Open,In Progress
+CTA-1713,bug,hongf,2019-07-11 06:15:04,In Progress,Resolved
+CTA-1713,bug,jiangpeng,2019-07-11 09:18:51,Resolved,Closed
+CTA-1712,bug,chenl@shukun.net,2019-07-15 09:44:06,Open,In Progress
+CTA-1712,bug,chenl@shukun.net,2019-07-15 09:44:22,,Fixed
+CTA-1712,bug,jiangpeng,2019-07-16 06:36:45,Resolved,Closed
+CTA-1711,bug,yuanyuan,2019-07-16 02:43:39,Open,In Progress
+CTA-1711,bug,yuanyuan,2019-07-16 02:43:46,,Fixed
+CTA-1711,bug,jiangpeng,2019-07-16 06:35:42,Resolved,Closed
+CTA-1705,bug,yuanyuan,2019-07-10 08:03:52,Open,In Progress
+CTA-1705,bug,yuanyuan,2019-07-10 09:30:58,,Fixed
+CTA-1705,bug,jiangpeng,2019-07-10 11:42:29,Resolved,Closed
+CTA-1703,bug,chenl@shukun.net,2019-07-15 09:42:40,Open,In Progress
+CTA-1703,bug,chenl@shukun.net,2019-07-15 09:43:02,,Fixed
+CTA-1703,bug,chenl@shukun.net,2019-07-15 09:43:05,Resolved,Closed
+CTA-1703,bug,chenl@shukun.net,2019-07-15 09:43:27,,Fixed
+CTA-1703,bug,jinjie,2019-07-16 02:23:30,Resolved,Closed
+CTA-1703,bug,chenl@shukun.net,2019-07-16 02:51:37,,Fixed
+CTA-1703,bug,jinjie,2019-07-16 06:27:22,Resolved,Closed
+CTA-1696,bug,hongf,2019-07-09 03:59:51,Open,In Progress
+CTA-1696,bug,hongf,2019-07-09 04:11:49,,Fixed
+CTA-1696,bug,jiangpeng,2019-07-10 09:37:29,Resolved,Closed
+CTA-1695,bug,hongf,2019-07-09 03:59:13,Open,In Progress
+CTA-1695,bug,hongf,2019-07-09 04:11:43,,Fixed
+CTA-1695,bug,jiangpeng,2019-07-10 09:01:05,Resolved,Closed
+CTA-1728,subtask,jiangpeng,2019-07-12 07:12:58,Backlog,Ongoing
+CTA-1728,subtask,jiangpeng,2019-07-15 02:01:51,Ongoing,Done
+CTA-1727,subtask,chenl@shukun.net,2019-07-12 06:46:58,Backlog,Ongoing
+CTA-1727,subtask,chenl@shukun.net,2019-07-12 06:47:02,Ongoing,Done
+CTA-1726,subtask,yuanyuan,2019-07-12 07:08:27,Backlog,Ongoing
+CTA-1726,subtask,yuanyuan,2019-07-12 07:08:38,Ongoing,Done
+CTA-1723,subtask,chenl@shukun.net,2019-07-15 01:58:43,Backlog,Ongoing
+CTA-1723,subtask,chenl@shukun.net,2019-07-15 01:59:02,Ongoing,Backlog
+CTA-1723,subtask,chenl@shukun.net,2019-07-15 01:59:06,Backlog,Ongoing
+CTA-1723,subtask,huanghai,2019-07-16 06:43:43,Ongoing,Done
+CTA-1725,task,jiangpeng,2019-07-12 06:18:09,Backlog,Ongoing
+CTA-1725,task,jiangpeng,2019-07-12 07:12:15,Ongoing,Done
+CTA-1718,task,jiangpeng,2019-07-11 08:20:20,Backlog,Ongoing
+CTA-1718,task,jiangpeng,2019-07-16 06:42:05,Ongoing,Done
+CTA-1715,task,jiangpeng,2019-07-11 03:33:04,Backlog,Ongoing
+CTA-1715,task,jiangpeng,2019-07-19 07:41:42,Ongoing,Done
+CTA-1733,story,yuanyuan,2019-07-15 09:15:19,Backlog,Ongoing
+CTA-1733,story,yuanyuan,2019-07-16 02:29:06,Ongoing,Done
+CTA-1709,story,wuxl,2019-07-10 09:17:19,Backlog,Developing
+CTA-1709,story,scj,2019-07-10 13:47:47,Developing,Ongoing
+CTA-1709,story,wuxl,2019-07-17 01:52:07,Ongoing,Done
+CTA-1706,story,yuanyuan,2019-07-10 07:32:53,Backlog,Developing
+CTA-1706,story,yuanyuan,2019-07-10 09:31:04,Developing,Developed
+CTA-1706,story,jinjie,2019-07-10 10:01:18,Developed,Testing
+CTA-1706,story,jinjie,2019-07-10 10:01:19,Testing,Tested
+CTA-1706,story,scj,2019-07-10 13:47:47,Tested,Done
+CTA-1704,story,chenl@shukun.net,2019-07-12 06:13:25,Backlog,Ongoing
+CTA-1704,story,scj,2019-07-15 02:01:51,Ongoing,Done
+CTA-1701,story,jiangpeng,2019-07-10 02:48:31,Backlog,Ongoing
+CTA-1701,story,jiangpeng,2019-07-10 08:39:11,Ongoing,Done
+CTA-1700,story,jiangpeng,2019-07-09 06:09:22,Backlog,Ongoing
+CTA-1700,story,jiangpeng,2019-07-09 10:55:47,Ongoing,Done
+CTA-1699,story,huanghai,2019-07-09 08:08:34,Backlog,Developing
+CTA-1699,story,huanghai,2019-07-09 08:08:35,Developing,Developed
+CTA-1699,story,jinjie,2019-07-09 08:47:58,Developed,Testing
+CTA-1699,story,scj,2019-07-10 13:47:47,Testing,Ongoing
+CTA-1699,story,huanghai,2019-07-11 01:54:12,Ongoing,Done
+CTA-1698,story,yuanyuan,2019-07-09 04:13:04,Backlog,Developing
+CTA-1698,story,yuanyuan,2019-07-09 08:43:31,Developing,Developed
+CTA-1698,story,jinjie,2019-07-09 08:47:56,Developed,Testing
+CTA-1698,story,scj,2019-07-10 13:47:47,Testing,Ongoing
+CTA-1698,story,yuanyuan,2019-07-11 06:12:57,Ongoing,Done
+CTA-1697,story,yuanyuan,2019-07-09 06:15:21,Backlog,Developing
+CTA-1697,story,yuanyuan,2019-07-09 08:43:27,Developing,Developed
+CTA-1697,story,jinjie,2019-07-09 08:47:55,Developed,Testing
+CTA-1697,story,scj,2019-07-10 13:47:47,Testing,Ongoing
+CTA-1697,story,yuanyuan,2019-07-11 06:12:47,Ongoing,Done
+CTA-1694,story,yuanyuan,2019-07-09 04:06:05,Backlog,Developing
+CTA-1694,story,scj,2019-07-10 13:47:47,Developing,Ongoing
+CTA-1694,story,yuanyuan,2019-07-11 07:17:14,Ongoing,Done
+CTA-1693,story,yuanyuan,2019-07-11 07:21:19,Backlog,Ongoing
+CTA-1693,story,yuanyuan,2019-07-16 06:08:34,Ongoing,Done
+CTA-1692,story,chenl@shukun.net,2019-07-15 05:44:14,Backlog,Ongoing
+CTA-1692,story,chenl@shukun.net,2019-07-15 05:44:35,Ongoing,Done
+CTA-1691,story,hongf,2019-07-09 06:31:33,Backlog,Developing
+CTA-1691,story,scj,2019-07-10 13:47:46,Developing,Ongoing
+CTA-1691,story,hongf,2019-07-11 02:17:26,Ongoing,Done
+CTA-1690,story,jinjie,2019-07-11 11:54:16,Backlog,Ongoing
+CTA-1690,story,jinjie,2019-07-16 11:17:18,Ongoing,Done
+CTA-1688,story,hongf,2019-07-11 02:17:42,Backlog,Ongoing
+CTA-1688,story,hongf,2019-07-16 08:34:02,Ongoing,Done
+CTA-1687,story,huanghai,2019-07-09 03:09:36,Backlog,Developing
+CTA-1687,story,scj,2019-07-10 13:47:46,Developing,Ongoing
+CTA-1687,story,huanghai,2019-07-15 09:19:35,Ongoing,Done
+CTA-1684,story,huanghai,2019-07-15 09:18:59,Backlog,Ongoing
+CTA-1684,story,huanghai,2019-07-15 11:55:21,Ongoing,Done
+CTA-1683,story,chenl@shukun.net,2019-07-12 04:57:00,Backlog,Ongoing
+CTA-1683,story,chenl@shukun.net,2019-07-12 06:12:02,Ongoing,Done
+CTA-1682,story,yuanyuan,2019-07-09 03:56:02,Backlog,Developing
+CTA-1682,story,yuanyuan,2019-07-09 04:10:10,Developing,Developed
+CTA-1682,story,jinjie,2019-07-09 10:10:07,Developed,Testing
+CTA-1682,story,jinjie,2019-07-10 06:16:36,Testing,Tested
+CTA-1682,story,scj,2019-07-10 13:47:46,Tested,Done
+CTA-1681,story,yuanyuan,2019-07-10 07:28:15,Backlog,Developing
+CTA-1681,story,scj,2019-07-10 13:47:47,Developing,Ongoing
+CTA-1681,story,yuanyuan,2019-07-17 02:29:36,Ongoing,Done
+CTA-1680,story,huanghai,2019-07-15 02:13:20,Backlog,Ongoing
+CTA-1680,story,huanghai,2019-07-15 09:11:35,Ongoing,Done
+CTA-1679,story,huanghai,2019-07-15 09:11:42,Backlog,Ongoing
+CTA-1679,story,huanghai,2019-07-16 03:15:04,Ongoing,Done
+CTA-1678,story,chenl@shukun.net,2019-07-15 05:44:47,Backlog,Ongoing
+CTA-1678,story,chenl@shukun.net,2019-07-15 06:21:42,Ongoing,Done
