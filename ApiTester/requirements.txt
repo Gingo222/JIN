@@ -9,3 +9,4 @@ dwebsocket == 0.4.2
 paramiko == 2.4.1
 HttpRunner == 1.5.8
 tornado == 5.1.1
+celery == 4.3.0
