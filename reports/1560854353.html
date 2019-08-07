@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <meta charset='utf-8'/>
+    <meta name='description' content=''/>
+    <meta name='robots' content='noodp, noydir'/>
+    <meta name='viewport' content='width=device-width, initial-scale=1'/>
+    <meta id="timeStampFormat" name="timeStampFormat" content='MMM d, yyyy hh:mm:ss a'/>
+
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link href='http://extentreports.com/resx/dist/css/extent.css' type='text/css' rel='stylesheet'/>
+
+    <title> - TestReport</title>
+
+    <style type='text/css'>
+        .node.level-1 ul {
+            display: none;
+        }
+
+        .node.level-1.active ul {
+            display: block;
+        }
+
+        .card-panel.environment th:first-child {
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body class='extent standard default hide-overflow dark'>
+<div id='theme-selector' alt='切换主题，默认黑色' title='切换主题'>
+    <span><i class='material-icons'>desktop_windows</i></span>
+</div>
+
+<nav>
+    <div class="nav-wrapper">
+        <a href="#!" class="brand-logo blue darken-3">Extent</a>
+
+        <!-- slideout menu -->
+        <ul id='slide-out' class='side-nav fixed hide-on-med-and-down'>
+            <li class='waves-effect active'><a href='#!' view='test-view'
+                                               onclick="configureView(0);chartsView('test');"><i class='material-icons'>dashboard</i></a>
+            </li>
+            <li class='waves-effect'><a href='#!' view='category-view' onclick="configureView(1)"><i
+                    class='material-icons'>label_outline</i></a></li>
+            <li class='waves-effect'><a href='#!' onclick="configureView(-1);chartsView('dashboard');"
+                                        view='dashboard-view'><i class='material-icons'>track_changes</i></a></li>
+        </ul>
+
+        <!-- report name -->
+        <span class='report-name'>Test Report: </span>
+
+        <!-- report headline -->
+        <span class='report-headline'></span>
+
+        <!-- nav-right -->
+        <ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
+            <li>
+                <a href='#!'>
+                    <span class='label suite-start-time blue darken-3'>2019-06-18 18:39:13</span>
+                </a>
+            </li>
+            <li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>HttpRunner 1.5.8 </span>
+                </a>
+            </li>
+            <li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>CPython 3.6.7 </span>
+                </a>
+            </li>
+            <li>
+                <a href='#!'>
+                    <span class='label blue darken-3'>Darwin-18.5.0-x86_64-i386-64bit</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- container -->
+<div class='container'>
+
+    <div id='test-view' class='view'>
+
+        <section id='controls'>
+            <div class='controls grey lighten-4'>
+                <!-- test toggle -->
+                <div class='chip transparent'>
+                    <a class='dropdown-button tests-toggle' data-activates='tests-toggle' data-constrainwidth='true'
+                       data-beloworigin='true' data-hover='true' href='#'>
+                        <i class='material-icons'>warning</i> Status
+                    </a>
+                    <ul id='tests-toggle' class='dropdown-content'>
+                        <li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a>
+                        </li>
+                        <li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
+                        <li status="skip"><a href="#!">Skip <i class="material-icons cyan-text">redo</i></a></li>
+                        <li class='divider'></li>
+                        <li status='clear' clear='true'><a href='#!'>Clear Filters <i
+                                class='material-icons'>clear</i></a></li>
+                    </ul>
+                </div>
+                <!-- test toggle -->
+
+                <!-- category toggle -->
+                <div class='chip transparent'>
+                    <a class='dropdown-button category-toggle' data-activates='category-toggle'
+                       data-constrainwidth='false' data-beloworigin='true' data-hover='true' href='#'>
+                        <i class='material-icons'>local_offer</i> Category
+                    </a>
+                    <ul id='category-toggle' class='dropdown-content'>
+                        
+                            <li><a href='#'>account_login</a>
+                            </li>
+                        
+
+
+                        <li class='divider'></li>
+                        <li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
+                    </ul>
+                </div>
+                <!-- category toggle -->
+
+                <!-- clear filters -->
+                <div class='chip transparent hide'>
+                    <a class='' id='clear-filters' alt='Clear Filters' title='Clear Filters'>
+                        <i class='material-icons'>close</i> Clear
+                    </a>
+                </div>
+                <!-- clear filters -->
+
+                <!-- enable dashboard -->
+                <div id='toggle-test-view-charts' class='chip transparent'>
+                    <a class='pink-text' id='enable-dashboard' alt='Enable Dashboard' title='Enable Dashboard'>
+                        <i class='material-icons'>track_changes</i> Dashboard
+                    </a>
+                </div>
+                <!-- enable dashboard -->
+
+                <!-- search -->
+                <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                    <a href="#" class='search-div'>
+                        <i class='material-icons'>search</i> Search
+                    </a>
+
+                    <div class='input-field left hide'>
+                        <input style="color: red" id='search-tests' type='text' class='validate browser-default'
+                               placeholder='Search Tests...'>
+                    </div>
+
+                </div>
+                <!-- search -->
+            </div>
+        </section>
+
+
+        <div id='test-view-charts' class='subview-full'>
+
+            <div id='test-view-charts' class='subview-full'>
+                <div id='charts-row' class='row nm-v nm-h'>
+                    <div class='col s12 m6 l6 np-h'>
+                        <div class='card-panel nm-v'>
+                            <div class='left panel-name'>Tests</div>
+                            <div class='chart-box'>
+                                <canvas id='parent-analysis' width='100' height='80'></canvas>
+                            </div>
+                            <div class='block text-small'>
+                            <span class='tooltipped' data-position='top'><span
+                                    class='strong'>1</span> test(s) passed</span>
+                                <span class='tooltipped' data-position='top'><span
+                                        class='strong'>0</span> test(s) failed</span>
+                            </div>
+                            <div class='block text-small'>
+                            <span class='strong tooltipped' data-position='top'
+                            >0</span>
+                                test(s) errored
+                                <span class='strong tooltipped' data-position='top'
+                                >0</span>
+                                test(s) skipped
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class='col s12 m6 l6 np-h'>
+                        <div class='card-panel nm-v'>
+                            <div class='left panel-name'>Suites</div>
+                            <div class='chart-box'>
+                                <canvas id='child-analysis' width='100' height='80'></canvas>
+                            </div>
+                            <div class='block text-small'>
+                            <span id="pass_suites" class='tooltipped' data-position='top'>
+                            </span>
+                            </div>
+                            <div class='block text-small'>
+                                <span id="fail_suites" class='strong tooltipped' data-position='top'></span> suite(s)
+                                failed
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class='subview-left left'>
+
+            <div class='view-summary'>
+                <h5>Suites</h5>
+                <ul id='test-collection' class='test-collection'>
+
+                    
+                        
+                            <li class='test displayed active has-leaf pass' status='pass' bdd='true'
+                                test-id='account_login_1'>
+                                
+                        <div class='test-heading'>
+                            <span class='test-name'>account_login</span>
+                            <span class='test-time'>base_url: http://103.211.47.138:8101</span>
+                            
+                                <span class='test-status right pass'>pass</span>
+                            
+
+
+                        </div>
+                        <div class='test-content hide'>
+                            <div class='test-time-info'>
+                                <span class='label start-time'>2019-06-18 18:39:13</span>
+                                <span class='label end-time'>0.201 seconds</span>
+                            </div>
+                            <div class='test-desc'>Pass: 1 ;
+                                Fail: 0 ;
+                                Error: 0
+                                Skip: 0 ;
+                            </div>
+                            <div class='test-attributes'>
+                                <div class='category-list'>
+                                    <span class='category label white-text'>account_login</span>
+                                    <span class='category label white-text'>base_url: http://103.211.47.138:8101</span>
+                                </div>
+                            </div>
+                            <ul class='collapsible node-list' data-collapsible='accordion'>
+                                
+                                    
+                                        <li class='node level-1 leaf pass' status='pass'
+                                            test-id='account_login_account_login_1'>
+                                            
+                                <div class='collapsible-header'>
+                                    <div class='node-name'>account_login</div>
+                                    <span class='node-time'></span>
+                                    <span class='node-duration'>response_time: 195.5 ms</span>
+                                    
+                                        <span class='test-status right pass'>pass</span>
+                                    
+
+                                </div>
+                                <div class='collapsible-body'>
+                                    <div class='category-list right'>
+                                        <span class='category label white-text'>account_login</span>
+                                        <span class='category label white-text'>account_login</span>
+                                    </div>
+                                    <div class='node-steps'>
+                                        <table class='bordered table-results'>
+                                            <thead>
+                                            <tr>
+                                                <th>Status</th>
+                                                <th>Params</th>
+                                                <th>Details</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr class='info' status='info'>
+                                                <td class='status info' title='info' alt='info'><i
+                                                        class='material-icons'>low_priority</i></td>
+                                                <td class='timestamp'>url</td>
+                                                <td class='step-details'>http://103.211.47.138:8101/api/login</td>
+                                            </tr>
+                                            <tr class='info' status='info'>
+                                                <td class='status info' title='info' alt='info'><i
+                                                        class='material-icons'>low_priority</i></td>
+                                                <td class='timestamp'>method</td>
+                                                <td class='step-details'>POST</td>
+                                            </tr>
+                                            <tr class='info' status='info'>
+                                                <td class='status info' title='info' alt='info'><i
+                                                        class='material-icons'>low_priority</i></td>
+                                                <td class='timestamp'>status_code</td>
+                                                <td class='step-details'>200</td>
+                                            </tr>
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <tr class='log' status='debug'>
+                                                        <td class='status debug' title='debug' alt='debug'><i
+                                                                class='material-icons'>low_priority</i></td>
+                                                        <td class='timestamp'>headers</td>
+                                                        <td class='step-details'>
+                                                            
+                                                                
+                                                                    <div>
+                                                                        <strong>User-Agent</strong>: python-requests/2.18.4
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Accept-Encoding</strong>: gzip, deflate
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Accept</strong>: */*
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Connection</strong>: keep-alive
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Content-Length</strong>: 102
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Content-Type</strong>: application/json
+                                                                    </div>
+                                                                
+                                                            
+                                                        </td>
+
+                                                    </tr>
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <tr class='log' status='debug'>
+                                                        <td class='status debug' title='debug' alt='debug'><i
+                                                                class='material-icons'>low_priority</i></td>
+                                                        <td class='timestamp'>json</td>
+                                                        <td class='step-details'>
+                                                            
+                                                                {'password': '06a86ffbd63e1366951b2da9af7cbd2640dcc60b848f74eb22585d4ef3fbc0af', 'username': 'shukun'}
+                                                            
+                                                        </td>
+
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='log' status='debug'>
+                                                        <td class='status debug' title='debug' alt='debug'><i
+                                                                class='material-icons'>low_priority</i></td>
+                                                        <td class='timestamp'>body</td>
+                                                        <td class='step-details'>
+                                                            
+                                                                {&#34;password&#34;: &#34;06a86ffbd63e1366951b2da9af7cbd2640dcc60b848f74eb22585d4ef3fbc0af&#34;, &#34;username&#34;: &#34;shukun&#34;}
+                                                            
+                                                        </td>
+
+                                                    </tr>
+                                                
+                                            
+
+                                            
+                                                
+                                            
+                                                
+                                                    <tr class='log' status='debug'>
+                                                        <td class='status debug' title='debug' alt='debug'><i
+                                                                class='material-icons'>low_priority</i></td>
+                                                        <td class='timestamp'>headers</td>
+                                                        <td class='step-details'>
+                                                            
+                                                                
+                                                                    <div>
+                                                                        <strong>Server</strong>: nginx/1.10.3 (Ubuntu)
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Date</strong>: Tue, 18 Jun 2019 10:39:14 GMT
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Content-Type</strong>: application/json
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Transfer-Encoding</strong>: chunked
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Connection</strong>: keep-alive
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Vary</strong>: Accept-Encoding
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Access-Control-Allow-Origin</strong>: *
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Access-Control-Allow-Methods</strong>: GET, POST, OPTIONS, PUT, DELETE
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Access-Control-Allow-Headers</strong>: Response-Language, Content-Type, Cache-Control, Authorization, X-Requested-With
+                                                                    </div>
+                                                                
+                                                                    <div>
+                                                                        <strong>Content-Encoding</strong>: gzip
+                                                                    </div>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                            
+                                                
+                                                    <tr class='log' status='debug'>
+                                                        <td class='status debug' title='debug' alt='debug'><i
+                                                                class='material-icons'>low_priority</i></td>
+                                                        <td class='timestamp'>cookies</td>
+                                                        <td class='step-details'>
+                                                            
+                                                                {}
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                                    <tr class='log' status='debug'>
+                                                        <td class='status debug' title='debug' alt='debug'><i
+                                                                class='material-icons'>low_priority</i></td>
+                                                        <td class='timestamp'>text</td>
+                                                        <td class='step-details'>
+                                                            
+                                                                
+                                                                    <pre>{"result":true,"token":"18c11528ccd8417e9f571c7b68571402","username":"shukun"}
+</pre>
+                                                                
+                                                            
+                                                        </td>
+                                                    </tr>
+                                                
+                                            
+                                                
+                                            
+
+                                            <tr class='log' status='pass'>
+                                                <td class='status pass' title='pass' alt='pass'><i
+                                                        class='material-icons'>low_priority</i></td>
+                                                <td class='timestamp'>Validators</td>
+                                                <td class='step-details'>
+                                                    
+                                                </td>
+                                            </tr>
+
+                                            <tr class='info' status='info'>
+                                                <td class='status info' title='info' alt='info'><i
+                                                        class='material-icons'>low_priority</i></td>
+                                                <td class='timestamp'>Statistics</td>
+                                                <td class='step-details'>
+                                                    <div>
+                                                        content_size(bytes): 79
+                                                    </div>
+                                                    <div>
+                                                        response_time(ms): 195.5
+                                                    </div>
+                                                    <div>
+                                                        elapsed(ms): 183.663
+                                                    </div>
+                                                </td>
+                                            </tr>
+
+
+                                            
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    
+                </ul>
+            </div>
+        </div>
+        <!-- subview left -->
+
+        <div class='subview-right left'>
+            <div class='view-summary'>
+                <h5 class='test-name'></h5>
+
+                <div id='step-filters' class="right">
+                    <span class="blue-text" status="info" alt="info" title="info"><i
+                            class="material-icons">info_outline</i></span>
+                    <span class="green-text" status="pass" alt="pass" title="pass"><i class="material-icons">check_circle</i></span>
+                    <span class="red-text" status="fail" alt="fail" title="fail"><i
+                            class="material-icons">cancel</i></span>
+                    <span class="red-text text-darken-4" status="fatal" alt="fatal" title="fatal"><i
+                            class="material-icons">cancel</i></span>
+                    <span class="pink-text text-lighten-1" status="error" alt="error" title="error"><i
+                            class="material-icons">error</i></span>
+                    <span class="orange-text" alt="warning" status="warning" title="warning"><i
+                            class="material-icons">warning</i></span>
+                    <span class="teal-text" status="skip" alt="skip" title="skip"><i
+                            class="material-icons">redo</i></span>
+                    <span status="clear" alt="Clear filters" title="Clear filters"><i
+                            class="material-icons">clear</i></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- subview right -->
+    <!-- test view -->
+    <div id='category-view' class='view hide'>
+
+        <section id='controls'>
+            <div class='controls grey lighten-4'>
+                <!-- search -->
+                <div class='chip transparent' alt='Search Tests' title='Search Tests'>
+                    <a href="#" class='search-div'>
+                        <i class='material-icons'>search</i> Search
+                    </a>
+
+                    <div class='input-field left hide'>
+                        <input tyle="color: red;" id='search-tests' type='text'
+                               class='validate browser-default'
+                               placeholder='Search Tests...'>
+                    </div>
+
+                </div>
+                <!-- search -->
+            </div>
+        </section>
+
+        <div class='subview-left left'>
+
+            <div class='view-summary'>
+                <h5>Categories</h5>
+                <ul id='category-collection' class='category-collection'>
+
+                    <li class='category displayed active'>
+                        <div class='category-heading'>
+                            <span class='category-name'>All Suites</span>
+                            <span class='category-status right'>
+							    <span class='label pass'>1 </span>
+                                
+                                
+                                
+                                </span>
+                        </div>
+                        <div class='category-content hide'>
+                            <div class='category-status-counts'>
+                                <span class='label green accent-4 white-text'>Passed: 1</span>
+                                <span class='label red lighten-1 white-text'>Failed: 0</span>
+                                <span class='label blue lighten-1 white-text'>Errored: 0</span>
+                                <span class="label yellow darken-2 white-text">Skipped: 0</span>
+                            </div>
+
+                            <div class='category-tests'>
+                                <table class='bordered table-results'>
+                                    <thead>
+                                    <tr>
+                                        <th>Timestamp</th>
+                                        <th>TestName</th>
+                                        <th>Status</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    
+                                        <tr style="border: 1px solid #49cc90; background-color: rgba(73, 204, 144, .1)">
+                                            <td>2019-06-18 18:39:13</td>
+                                            <td class='linked'
+                                                test-id='account_login_1'>account_login</td>
+                                            
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            
+
+                                        </tr>
+                                        
+                                            
+                                        
+                                    
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </li>
+
+                    
+                        <li class='category displayed active'>
+                            <div class='category-heading'>
+                                <span class='category-name'>account_login</span>
+                                <span class='category-status right'>
+							    <span class='label pass'>1 </span>
+                                    
+                                    
+                                    
+                                </span>
+                            </div>
+                            <div class='category-content hide'>
+                                <div class='category-status-counts'>
+                                    <span class='label green accent-4 white-text'>Passed: 1</span>
+                                    <span class='label red lighten-1 white-text'>Failed: 0</span>
+                                    <span class='label blue lighten-1 white-text'>Errored: 0</span>
+                                    <span class="label yellow darken-2 white-text">Skipped: 0</span>
+                                </div>
+
+                                <div class='category-tests'>
+                                    <table class='bordered table-results'>
+                                        <thead>
+                                        <tr>
+                                            <th>Timestamp</th>
+                                            <th>TestName</th>
+                                            <th>Status</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        
+                                            <tr>
+                                                <td>2019-06-18 18:39:13</td>
+                                                <td class='linked'
+                                                    test-id='account_login_account_login_1'>account_login</td>
+                                                
+                                                    <td><span class='test-status pass'>pass</span></td>
+                                                
+                                            </tr>
+                                        
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </li>
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class='subview-right left'>
+            <div class='view-summary'>
+                <h5 class='category-name'></h5>
+            </div>
+        </div>
+    </div>
+    <!-- category view -->
+
+    <div id='dashboard-view' class='view hide'>
+        <div class='card-panel transparent np-v'>
+            <h5>Dashboard</h5>
+
+            <div class='row'>
+                <div class='col s2'>
+                    <div class='card-panel r'>
+                        Pass
+                        <div class='panel-lead'>1</div>
+                    </div>
+                </div>
+                <div class='col s2'>
+                    <div class='card-panel r'>
+                        Fail
+                        <div class='panel-lead'>0</div>
+                    </div>
+                </div>
+                <div class='col s2'>
+                    <div class='card-panel r'>
+                        Error
+                        <div class='panel-lead'>0</div>
+                    </div>
+                </div>
+                <div class='col s2'>
+                    <div class='card-panel r'>
+                        Skip
+                        <div class='panel-lead'>0</div>
+                    </div>
+                </div>
+                <div class='col s2'>
+                    <div class='card-panel r'>
+                        Start
+                        <div class='panel-lead'>2019-06-18 18:39:13</div>
+                    </div>
+                </div>
+                <div class='col s2'>
+                    <div class='card-panel r'>
+                        Time Taken
+                        <div class='panel-lead'>0.201 seconds</div>
+                    </div>
+                </div>
+                <div class='col s4'>
+                    <div class='card-panel'>
+                        <span class='right label cyan white-text'>Categories</span>
+                        <p>&nbsp;</p>
+                        <table>
+                            <tr>
+                                <th>Name</th>
+                                <th>Passed</th>
+                                <th>Failed</th>
+                                <th>Errored</th>
+                                <th>Skipped</th>
+                            </tr>
+                            <tr>
+                                <td>All Suites</td>
+                                <td class="pass">1</td>
+                                <td class="fail">0</td>
+                                <td class="error">0</td>
+                                <td class="skip">0</td>
+                            </tr>
+
+                            
+                                <tr>
+                                    <td>account_login</td>
+                                    <td class="pass">1</td>
+                                    <td class="fail">0</td>
+                                    <td class="error">0</td>
+                                    <td class="skip">0</td>
+                                </tr>
+                            
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- dashboard view -->
+    <!-- testrunner-logs view -->
+    <!-- container -->
+</div>
+<script>
+    var test_suite_success = 0;
+    
+        
+            test_suite_success = test_suite_success + 1;
+        
+
+    
+
+    var statusGroup = {
+        passParent: 1,
+        failParent: 0,
+        fatalParent: 0,
+        errorParent: 0,
+        warningParent: 0,
+        skipParent: 0,
+        exceptionsParent: 0,
+
+        passChild: test_suite_success,
+        failChild: 1 -test_suite_success,
+        fatalChild: 0,
+        errorChild: 0,
+        warningChild: 0,
+        skipChild: 0,
+        infoChild: 0,
+        exceptionsChild: 0,
+
+        passGrandChild: 0,
+        failGrandChild: 0,
+        fatalGrandChild: 0,
+        errorGrandChild: 0,
+        warningGrandChild: 0,
+        skipGrandChild: 0,
+        infoGrandChild: 0,
+        exceptionsGrandChild: 0,
+    };
+
+    document.getElementById('pass_suites').innerHTML = "<span class='strong'>" + test_suite_success + "</span> suite(s) passed";//找到id为'myId'的标签内插入html变量的值
+    document.getElementById('fail_suites').innerText = 1 -test_suite_success;//找到id为'myId'的标签替换它的内容为html的值
+
+</script>
+
+<script src='http://extentreports.com/resx/dist/js/extent.js' type='text/javascript'></script>
+
+
+<script type='text/javascript'>
+    $(window).off("keydown");
+</script>
+</body>
+
+</html>
