@@ -1,0 +1,25 @@
+IP : '103.211.47.132'
+PORT : '8080'
+USER : 'jinjie'
+PWD : '123'
+ISSUE : 'ISSUE'
+JIRA_URL : 'http://103.211.47.132:8080'
+JIRA_LOGIN : 'http://103.211.47.132:8080/login.jsp'
+CHANGE_LOG : 'http://103.211.47.132:8080/rest/api/latest/issue/{}?expand=changelog'
+AUTH :
+  - jinjie
+  - 123
+JIRA_AUTH_DATA : {
+                    "os_username": "jinjie",
+                    "os_password": "123",
+                    "os_destination": "",
+                    "user_role": "",
+                    "atl_token":"",
+                    "&login": "Log+In"
+                   }
+STORY_CSV_FILE : '/Users/jinjie/PycharmProjects/DailyJob/sk/daily_jira/files/JiraStory.csv'
+EFFICIENCY_CSV_FILE: '/Users/jinjie/PycharmProjects/DailyJob/sk/daily_jira/files/efficiency.csv'
+PROJECT: '冠脉智能诊断'
+BROAD: '冠脉研发'
+SPRINT: 'coronary-1.7.0'
+SQLALCHEMY_DATABASE_URI: 'mysql+pymysql://root:r2dec3po@127.0.0.1:7706/jira?charset=utf8mb4'

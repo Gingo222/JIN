@@ -1,0 +1,6 @@
+injson==0.2.3
+selenium==3.141.0
+appium-python-client==0.46
+xlrd==1.2.0
+pillow==6.1.0
+xlsxwriter==1.1.8

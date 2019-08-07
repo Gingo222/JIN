@@ -1,0 +1,274 @@
+{
+    "expand": "renderedFields,names,schema,operations,editmeta,changelog,versionedRepresentations",
+    "id": "14600",
+    "self": "http://103.211.47.132:8080/rest/api/latest/issue/14600",
+    "key": "CTA-1709",
+    "fields": {
+        "issuetype": {
+            "self": "http://103.211.47.132:8080/rest/api/2/issuetype/10001",
+            "id": "10001",
+            "description": "创建的 JIRA 敏捷-请勿编辑或删除。问题类型的用户故事。",
+            "iconUrl": "http://103.211.47.132:8080/images/icons/issuetypes/story.svg",
+            "name": "故事",
+            "subtask": false
+        },
+        "components": [],
+        "timespent": null,
+        "timeoriginalestimate": 72000,
+        "description": null,
+        "project": {
+            "self": "http://103.211.47.132:8080/rest/api/2/project/10001",
+            "id": "10001",
+            "key": "CTA",
+            "name": "冠脉智能诊断",
+            "avatarUrls": {
+                "48x48": "http://103.211.47.132:8080/secure/projectavatar?avatarId=10324",
+                "24x24": "http://103.211.47.132:8080/secure/projectavatar?size=small&avatarId=10324",
+                "16x16": "http://103.211.47.132:8080/secure/projectavatar?size=xsmall&avatarId=10324",
+                "32x32": "http://103.211.47.132:8080/secure/projectavatar?size=medium&avatarId=10324"
+            }
+        },
+        "fixVersions": [
+            {
+                "self": "http://103.211.47.132:8080/rest/api/2/version/10104",
+                "id": "10104",
+                "description": "",
+                "name": "coronary-1.7.0",
+                "archived": false,
+                "released": false,
+                "releaseDate": "2019-07-25"
+            }
+        ],
+        "aggregatetimespent": null,
+        "resolution": null,
+        "timetracking": {
+            "originalEstimate": "2d 4h",
+            "remainingEstimate": "2d 4h",
+            "originalEstimateSeconds": 72000,
+            "remainingEstimateSeconds": 72000
+        },
+        "customfield_10005": "0|zzy3wo:",
+        "customfield_10006": 2.5,
+        "attachment": [],
+        "aggregatetimeestimate": 72000,
+        "resolutiondate": null,
+        "workratio": 0,
+        "summary": "替换coronary dicom tool",
+        "lastViewed": "2019-07-12T11:02:24.857+0000",
+        "watches": {
+            "self": "http://103.211.47.132:8080/rest/api/2/issue/CTA-1709/watchers",
+            "watchCount": 1,
+            "isWatching": true
+        },
+        "creator": {
+            "self": "http://103.211.47.132:8080/rest/api/2/user?username=jinjie",
+            "name": "jinjie",
+            "key": "jinjie",
+            "emailAddress": "jinjie@shukun.net",
+            "avatarUrls": {
+                "48x48": "http://103.211.47.132:8080/secure/useravatar?ownerId=jinjie&avatarId=10801",
+                "24x24": "http://103.211.47.132:8080/secure/useravatar?size=small&ownerId=jinjie&avatarId=10801",
+                "16x16": "http://103.211.47.132:8080/secure/useravatar?size=xsmall&ownerId=jinjie&avatarId=10801",
+                "32x32": "http://103.211.47.132:8080/secure/useravatar?size=medium&ownerId=jinjie&avatarId=10801"
+            },
+            "displayName": "金杰",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+        },
+        "subtasks": [],
+        "created": "2019-07-10T09:14:33.036+0000",
+        "reporter": {
+            "self": "http://103.211.47.132:8080/rest/api/2/user?username=jinjie",
+            "name": "jinjie",
+            "key": "jinjie",
+            "emailAddress": "jinjie@shukun.net",
+            "avatarUrls": {
+                "48x48": "http://103.211.47.132:8080/secure/useravatar?ownerId=jinjie&avatarId=10801",
+                "24x24": "http://103.211.47.132:8080/secure/useravatar?size=small&ownerId=jinjie&avatarId=10801",
+                "16x16": "http://103.211.47.132:8080/secure/useravatar?size=xsmall&ownerId=jinjie&avatarId=10801",
+                "32x32": "http://103.211.47.132:8080/secure/useravatar?size=medium&ownerId=jinjie&avatarId=10801"
+            },
+            "displayName": "金杰",
+            "active": true,
+            "timeZone": "Asia/Shanghai"
+        },
+        "customfield_10000": null,
+        "aggregateprogress": {
+            "progress": 0,
+            "total": 72000,
+            "percent": 0
+        },
+        "priority": {
+            "self": "http://103.211.47.132:8080/rest/api/2/priority/3",
+            "iconUrl": "http://103.211.47.132:8080/images/icons/priorities/medium.svg",
+            "name": "Medium",
+            "id": "3"
+        },
+        "customfield_10100": null,
+        "customfield_10300": null,
+        "customfield_10004": [
+            "com.atlassian.greenhopper.service.sprint.Sprint@a03666a[id=161,rapidViewId=2,state=ACTIVE,name=coronary-1.7.0,startDate=2019-07-08T02:23:49.506Z,endDate=2019-07-19T02:23:00.000Z,completeDate=<null>,sequence=161,goal=功能全面：组合图、ris报告、结构化报告（两种，后台配置）  科研支持：算法数据可通过脚本导出成excel。  商业化支持：部署时集成CFDA版本。  提升用户体验：浏览顺滑，加载无感，符合并提升诊断效率，UI舒适。 算法高效稳定：计算时间控制在200s以内;后处理理合格率≥90%，诊断合格率≥90%]"
+        ],
+        "labels": [],
+        "environment": null,
+        "timeestimate": 72000,
+        "aggregatetimeoriginalestimate": 72000,
+        "versions": [],
+        "duedate": null,
+        "progress": {
+            "progress": 0,
+            "total": 72000,
+            "percent": 0
+        },
+        "comment": {
+            "comments": [],
+            "maxResults": 0,
+            "total": 0,
+            "startAt": 0
+        },
+        "issuelinks": [],
+        "votes": {
+            "self": "http://103.211.47.132:8080/rest/api/2/issue/CTA-1709/votes",
+            "votes": 0,
+            "hasVoted": false
+        },
+        "worklog": {
+            "startAt": 0,
+            "maxResults": 20,
+            "total": 0,
+            "worklogs": []
+        },
+        "assignee": {
+            "self": "http://103.211.47.132:8080/rest/api/2/user?username=wuxl",
+            "name": "wuxl",
+            "key": "wuxl",
+            "emailAddress": "wuxl@shukun.net",
+            "avatarUrls": {
+                "48x48": "http://103.211.47.132:8080/secure/useravatar?avatarId=10341",
+                "24x24": "http://103.211.47.132:8080/secure/useravatar?size=small&avatarId=10341",
+                "16x16": "http://103.211.47.132:8080/secure/useravatar?size=xsmall&avatarId=10341",
+                "32x32": "http://103.211.47.132:8080/secure/useravatar?size=medium&avatarId=10341"
+            },
+            "displayName": "吴新路",
+            "active": true,
+            "timeZone": "GMT"
+        },
+        "updated": "2019-07-10T13:47:47.159+0000",
+        "status": {
+            "self": "http://103.211.47.132:8080/rest/api/2/status/10200",
+            "description": "",
+            "iconUrl": "http://103.211.47.132:8080/images/icons/statuses/generic.png",
+            "name": "Ongoing",
+            "id": "10200",
+            "statusCategory": {
+                "self": "http://103.211.47.132:8080/rest/api/2/statuscategory/4",
+                "id": 4,
+                "key": "indeterminate",
+                "colorName": "yellow",
+                "name": "处理中"
+            }
+        }
+    },
+    "changelog": {
+        "startAt": 0,
+        "maxResults": 3,
+        "total": 3,
+        "histories": [
+            {
+                "id": "38446",
+                "author": {
+                    "self": "http://103.211.47.132:8080/rest/api/2/user?username=jinjie",
+                    "name": "jinjie",
+                    "key": "jinjie",
+                    "emailAddress": "jinjie@shukun.net",
+                    "avatarUrls": {
+                        "48x48": "http://103.211.47.132:8080/secure/useravatar?ownerId=jinjie&avatarId=10801",
+                        "24x24": "http://103.211.47.132:8080/secure/useravatar?size=small&ownerId=jinjie&avatarId=10801",
+                        "16x16": "http://103.211.47.132:8080/secure/useravatar?size=xsmall&ownerId=jinjie&avatarId=10801",
+                        "32x32": "http://103.211.47.132:8080/secure/useravatar?size=medium&ownerId=jinjie&avatarId=10801"
+                    },
+                    "displayName": "金杰",
+                    "active": true,
+                    "timeZone": "Asia/Shanghai"
+                },
+                "created": "2019-07-10T09:14:38.864+0000",
+                "items": [
+                    {
+                        "field": "Story Points",
+                        "fieldtype": "custom",
+                        "from": null,
+                        "fromString": null,
+                        "to": null,
+                        "toString": "2.5"
+                    }
+                ]
+            },
+            {
+                "id": "38447",
+                "author": {
+                    "self": "http://103.211.47.132:8080/rest/api/2/user?username=wuxl",
+                    "name": "wuxl",
+                    "key": "wuxl",
+                    "emailAddress": "wuxl@shukun.net",
+                    "avatarUrls": {
+                        "48x48": "http://103.211.47.132:8080/secure/useravatar?avatarId=10341",
+                        "24x24": "http://103.211.47.132:8080/secure/useravatar?size=small&avatarId=10341",
+                        "16x16": "http://103.211.47.132:8080/secure/useravatar?size=xsmall&avatarId=10341",
+                        "32x32": "http://103.211.47.132:8080/secure/useravatar?size=medium&avatarId=10341"
+                    },
+                    "displayName": "吴新路",
+                    "active": true,
+                    "timeZone": "GMT"
+                },
+                "created": "2019-07-10T09:17:19.692+0000",
+                "items": [
+                    {
+                        "field": "status",
+                        "fieldtype": "jira",
+                        "from": "10000",
+                        "fromString": "Backlog",
+                        "to": "3",
+                        "toString": "Developing"
+                    }
+                ]
+            },
+            {
+                "id": "39581",
+                "author": {
+                    "self": "http://103.211.47.132:8080/rest/api/2/user?username=scj",
+                    "name": "scj",
+                    "key": "scj",
+                    "emailAddress": "scj@shukun.net",
+                    "avatarUrls": {
+                        "48x48": "http://103.211.47.132:8080/secure/useravatar?ownerId=scj&avatarId=10702",
+                        "24x24": "http://103.211.47.132:8080/secure/useravatar?size=small&ownerId=scj&avatarId=10702",
+                        "16x16": "http://103.211.47.132:8080/secure/useravatar?size=xsmall&ownerId=scj&avatarId=10702",
+                        "32x32": "http://103.211.47.132:8080/secure/useravatar?size=medium&ownerId=scj&avatarId=10702"
+                    },
+                    "displayName": "石辰杰",
+                    "active": true,
+                    "timeZone": "Asia/Shanghai"
+                },
+                "created": "2019-07-10T13:47:47.160+0000",
+                "items": [
+                    {
+                        "field": "status",
+                        "fieldtype": "jira",
+                        "from": "3",
+                        "fromString": "Developing",
+                        "to": "10200",
+                        "toString": "Ongoing"
+                    },
+                    {
+                        "field": "Workflow",
+                        "fieldtype": "jira",
+                        "from": "16805",
+                        "fromString": "Software Simplified Workflow for Project PTF",
+                        "to": "17706",
+                        "toString": "Scrum workflow"
+                    }
+                ]
+            }
+        ]
+    }
+}
