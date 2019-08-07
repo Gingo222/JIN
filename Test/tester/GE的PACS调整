@@ -1,0 +1,5 @@
+SQL：
+insert into settings values(replace(uuid(),'-',''),'push_ignore_key', '["ImageOrientationPatient"]', now(), now());
+
+Docker：
+sudo docker exec -it 实例名 mysql -u用户名 -p密码 cta -e "insert into settings values(replace(uuid(),'-',''),'push_ignore_key', '["ImageOrientationPatient"]', now(), now())"

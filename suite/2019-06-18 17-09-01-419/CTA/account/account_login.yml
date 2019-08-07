@@ -1,0 +1,12 @@
+-   config:
+        name: account_login
+        request:
+            base_url: http://103.211.47.138:8101
+-   test:
+        name: account_login
+        request:
+            json:
+                password: 06a86ffbd63e1366951b2da9af7cbd2640dcc60b848f74eb22585d4ef3fbc0af
+                username: shukun
+            method: POST
+            url: /api/login

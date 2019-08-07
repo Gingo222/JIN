@@ -1,0 +1,50 @@
+103.211.47.130
+devops1
+fsgAKHxEl7
+
+103.211.47.131
+devops1
+VB!krJ8ovb
+
+103.211.47.132
+devops1
+f95YJv!gKO
+
+103.211.47.134
+devops1
+D0zIcx19NH
+
+103.211.47.135
+devops1
+YFR@VrNfzj
+
+103.211.47.138
+devops1
+M0yxQpakOK
+
+103.211.47.139
+devops1
+FbDXVuTvCd
+
+线上问题
+shuKun@2O19
+
+友谊:
+apD6gcMhPz
+
+北京协和
+wBqToFYE8v
+
+
+
+jenkin job
+
+/home/devops1/sk/delivering-toolset/jenkins/script
+ python get_case_state.py 20190705 | grep ' 11 ' | awk '{print $1}' | xargs -n1 python rerun_today_cases.py 
+
+ pip install pipenv -i=https://mirrors.aliyun.com/pypi/simple
+
+
+ 1.2.840.113619.2.416.86247785553219524746808397811039558786
+
+/Users/jinjie/web/medicalbrain-admin-web

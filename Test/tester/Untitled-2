@@ -1,0 +1,38 @@
+正常又推   覆盖casenum 推送打印记录丢失
+
+
+袁媛： worklist 差不多研发完成，其他story研发完成
+陈亮： 重跑删除文档评审修改完成，删除重跑story研发中
+新路： 删除重跑记录研发， vr前端打印勾选选择story研发
+姜鹏： 测试用例差不多完成90%
+金杰： 线上问题跟进，报告的问题修复 多中心数据支持
+辰杰： redis异常启动问题修复
+
+
+冠状动脉呈平衡型。
+左主干起源于左窦，右冠状动脉起源于右窦。
+LM：局部走行于心肌内，管壁可见钙化斑块，管腔重度狭窄约70%，发出LAD、LCX。
+左前降支LAD（6段）管壁可见钙化、非钙化斑块，管腔中度狭窄约50%；LAD（7段）管壁可见钙化、非钙化斑块，管腔中度狭窄约63%；LAD（8段）管壁可见钙化斑块，管腔轻微狭窄约15%。
+第一对角支D1（9段），第二对角支D2（10段）未见斑块及狭窄。
+左回旋支（LCX）未见斑块及狭窄。
+第二钝缘支OM2（14段）管壁可见非钙化斑块，管腔轻度狭窄约40%。第一钝缘支OM1（12段）未见斑块及狭窄。
+右冠状动脉（RCA）未见斑块及狭窄。
+
+冠状动脉粥样硬化表现：
+左主干LM局部走行于心肌内，管壁可见钙化斑块，管腔重度狭窄。
+左前降支LAD（6段）管壁可见钙化、非钙化斑块，管腔中度狭窄；LAD（7段）管壁可见钙化、非钙化斑块，管腔中度狭窄；LAD（8段）管壁可见钙化斑块，管腔轻微狭窄。
+第二钝缘支OM2（14段）管壁可见非钙化斑块，管腔轻度狭窄。
+
+
+080BF4_080-014_1.2.840.113619.6.80.114374075989539.14374.1519959789161.1
+
+
+版本更新不能影响数据计算状态，需造数据进行测试
+
+
+SELECT system_operate.id AS system_operate_id, accounts.username AS accounts_username, system_operate.created_at AS system_operate_created_at, system_operate.case_num AS system_operate_case_num, system_operate.patient_name AS system_operate_patient_name, system_operate.patient_num AS system_operate_patient_num, system_operate.series_description AS system_operate_series_description 
+FROM system_operate LEFT OUTER JOIN accounts ON accounts.id = system_operate.created_by 
+WHERE system_operate.operate_type = 2 AND system_operate.created_at >= '2019-05-15 00:00:00' AND system_operate.created_at < '2019-05-16 00:00:00'
+
+
+作为冠脉研发1号位，一方面是具有敬业精神，对工作认真负责，要能及时、定期反思工作中的不足，及时加以改进；另一方面有奉献精神，燃烧自己，为冠脉团队带来更高的效率，体现出更好的价值。日常负责团队的管理工作，研发更优秀的产品，持续奋斗，使产品更具有竞争力。作为冠脉的测试工程师，保障了产品的质量，推动着项目的进度，与各个团队间沟通解决问题，将产品的品质提升至更高的程度，得到用户的信任

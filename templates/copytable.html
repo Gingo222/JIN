@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <script type="text/javascript" src="/components/lib/bundle.js"></script>
+    <script type="text/javascript">
+      function load() {
+        var items = [['x', 'y'], ['a', 'b'], ['c', 'd']]
+        var output = AsciiTable.table(items)
+        document.getElementById('my-table').innerHTML = output
+        console.log(output)
+      }
+    </script>
+  </head>
+  <body onload="load()">
+    <pre id="my-table">loading...</pre>
+  </body>
+</html>
