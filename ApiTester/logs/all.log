@@ -2287,3 +2287,15 @@ AttributeError: 'list' object has no attribute 'encode'
 2019-08-07 18:39:45,751 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18394
 2019-08-07 18:39:45,802 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/amazeui.min.css HTTP/1.1" 304 0
 2019-08-07 18:39:45,993 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0
+2019-08-08 10:43:23,354 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-08-08 10:43:23,356 [django.server:124] [basehttp:log_message] [WARNING]- "GET / HTTP/1.1" 404 2365
+2019-08-08 10:43:28,517 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 302 0
+2019-08-08 10:43:28,526 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/login/ HTTP/1.1" 200 3876
+2019-08-08 10:43:32,639 [django.server:124] [basehttp:log_message] [INFO]- "POST /api/login/ HTTP/1.1" 302 0
+2019-08-08 10:43:32,768 [django.server:124] [basehttp:log_message] [INFO]- "GET /api/index/ HTTP/1.1" 200 18394
+2019-08-08 10:43:32,825 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/commons.js HTTP/1.1" 304 0
+2019-08-08 10:43:32,827 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/js/app.js HTTP/1.1" 304 0
+2019-08-08 10:43:32,827 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/common.css HTTP/1.1" 304 0
+2019-08-08 10:43:32,828 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/amazeui.min.css HTTP/1.1" 304 0
+2019-08-08 10:43:32,829 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/css/admin.css HTTP/1.1" 304 0
+2019-08-08 10:43:33,036 [django.server:124] [basehttp:log_message] [INFO]- "GET /static/assets/fonts/fontawesome-webfont.woff2?v=4.6.3 HTTP/1.1" 304 0

@@ -649,3 +649,5 @@ AttributeError: 'list' object has no attribute 'encode'
 2019-07-10 16:58:13,422 [HttpRunnerManager:55] [views:login] [INFO]- jinjie 登录成功
 2019-08-07 17:52:32,801 [HttpRunnerManager:54] [views:login] [INFO]- jinjie 登录成功
 2019-08-07 18:39:45,636 [HttpRunnerManager:54] [views:login] [INFO]- jinjie 登录成功
+2019-08-08 10:43:23,354 [django.request:93] [base:get_response] [WARNING]- Not Found: /
+2019-08-08 10:43:32,628 [HttpRunnerManager:54] [views:login] [INFO]- jinjie 登录成功
